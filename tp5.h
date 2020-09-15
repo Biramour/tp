@@ -23,6 +23,14 @@ typedef struct
     double length;
 }line_t;
 
+typedef enum 
+{
+    LINE,
+    RECTANGLE,
+    CIRCLE
+}shape_t;
+
+typedef char color_t;
 
 coord_t coordinate(double x, double y);
 void print_coord(coord_t coord);
