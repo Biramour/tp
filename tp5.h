@@ -12,6 +12,17 @@ typedef struct
     double radius;
 } circle_t;
 
+typedef struct 
+{
+    double length;
+    double width;
+} rectangle_t;
+
+typedef struct 
+{
+    double length;
+}line_t;
+
 
 coord_t coordinate(double x, double y);
 void print_coord(coord_t coord);
