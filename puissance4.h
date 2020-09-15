@@ -3,9 +3,9 @@
 
 
  
-void fill_table(int table[]);
- 
-void print_table(int table[]);
+void    fill_table(int table[]);
+void    print_table(int table[][5]);
+bool    align_by_3(int tab [][5]);
  
 
 #endif
