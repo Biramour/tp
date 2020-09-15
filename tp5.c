@@ -15,6 +15,8 @@ coord_t coordinate(double x, double y)
 
     return new;
 }
+
+
 void print_coord(coord_t coord)
 {
     printf("(%f | %f)",coord.x,coord.y);
