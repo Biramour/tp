@@ -14,5 +14,7 @@
 /**************************************************/
 
 int main() {
+    coord_t x;
+    printf("Size of double : %ld\nSize of x :  %ld",sizeof(double), sizeof(x)); prl;
   return EXIT_SUCCESS;
 }
